@@ -10,26 +10,21 @@
 
   /* 使背景图片容器充满整个屏幕 */
         .banner {
-            width: 100%;
-            height: 400px; /* 或根据需求调整高度 */
-            background-image: url('photos/bio.jpg');
-            background-size: cover;
-            background-position: center;
-            position: relative;
-            display: flex;
-            justify-content: center;  /* 水平居中 */
-            align-items: center;      /* 垂直居中 */
-            color: white;
-            text-align: center; /* 让文字居中 */
-        }
-
-        .banner-msg h2, .banner-msg h3 {
-            margin: 0;
-        }
-
-        .banner-msg h3 {
-            margin-top: 5px;
-        }
+       	width: 100%;
+        height: calc(100vw * 365/1269); /* 根据图片比例动态计算高度 */
+        max-height: 365px; /* 保持原始图片最大高度 */
+        background-image: url('photos/bio.jpg');
+        background-size: contain; /* 保持完整图片比例 */
+        background-repeat: no-repeat;
+        background-position: center;
+        position: relative;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        color: white;
+        text-align: center;
+        margin: 0 auto;
+  		  }
 </style>
 </head>
 <body>
