@@ -14,26 +14,27 @@ body {
 }
 
 #layout-menu {
+	position :fixed;
 	background: #f6f6f6;
 	border: 1px solid #dddddd;
 	padding-top: 0.5em;
 	padding-left: 8px;
 	padding-right: 8px;
 	font-size: 1.0em;
-	width: auto;
+	width: 8.5em;
 	white-space: nowrap;
     text-align: left;
     vertical-align: top;
 }
 
-#layout-menu td {
+#layout-menu td {	
 	background: #f4f4f4;
     vertical-align: top;
 }
 
 #layout-content {
 	padding-top: 0.0em;
-	padding-left: 1.0em;
+	padding-left: 10.0em;
 	padding-right: 1.0em;
     border: none;
     background: white;
@@ -115,16 +116,6 @@ strong {
 	font-weight: bold;
 }
 
-
-h1, h2, h3 {
-	color: #527bbd;
-	margin-top: 0.7em;
-	margin-bottom: 0.3em;
-	padding-bottom: 0.2em;
-	line-height: 1.0;
-	padding-top: 0.5em;
-	border-bottom: 1px solid #aaaaaa;
-}
 
 h1 {
 	font-size: 165%;
